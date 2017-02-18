@@ -1,7 +1,7 @@
 ## In this assigment, I am trying to cache an inverse of a matrix.
 ## Assuming that given matrix is invertable.
 
-## this function returns a vector which contains some functions explained below
+## This function returns a vector which contains some functions explained below
 ## setMatrix - changes value of a matrix with given new value 
 ## getMatrix - returns value of a matrix
 ## setInverse - changes value of an inverse of a matrix 
@@ -37,7 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## solve(x) - gives the inverse of a square matrix
 ## check for more information    ?solve
 
-## solve cache and return inverse matrix
+## This function caches inverse of matrix and returns it
 cacheSolve <- function(x, ...) {
   # let us keep inverse of a matrix
   inverseOfMatrix <- x$getInverse()
